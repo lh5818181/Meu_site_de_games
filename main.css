@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .conteiner {
+    align-items: flex-start;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: rgb(31, 45, 172);
+    padding: 16px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header .conteiner, 
+section .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*Cabeçalho*/
+
+/*imagens*/
+.img_warframe {
+    padding: 25px;
+    margin-right: 16px;
+}
+
+.img-pc-list img,
+.img-console-list img, .redes-links img{
+    height: 40px;
+    margin-right: 8px;
+}
+
+.img-pc-list li, .redes-links li{
+    display: inline;
+}
+
+.img-gow {
+    padding: 25px;
+    margin-right: 16px;
+}
+
+.redes-links 
+/*imagens*/
+
+/*Titutlos*/
+section h2, section h3, section h4{
+    margin-bottom: 16px;
+}
+/*Titutlos*/
+
+/*conteudos*/
+section p {
+    margin-bottom: 10px;
+}
+
+.game-console {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*conteudos*/
+
+/*fonte*/
+
+header nav li a {
+    text-decoration: none;
+    font-family: "Roboto Serif", serif;
+    color: aquamarine;
+}
+
+header h1{
+    font-family: "Nabla", system-ui;
+}
+
+section h2, section h3 , section h4 {
+    font-family: "Aoboshi One", serif;
+}
+
+section p {
+    text-decoration: none;
+    font-family: "Roboto Serif", serif;
+}
+
+/*fonte*/
+
+
+
+/*forms*/
+
+#forms-about .conteiner {
+    display: block;
+}
+
+.list-forms {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, 
+form textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+
+/*forms*/
+
+/*personalizar forms*/
+form button {
+    background-color: #1fd699;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f7088b;
+
+}
+
+input:focus, textarea:focus {
+    outline-color: #f7088b;
+}
+
+footer {
+    background-color: rgb(31, 45, 172);
+    color: aliceblue;
+    padding: 16px 0;
+}
+/*personalizar forms*/
+
